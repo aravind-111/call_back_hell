@@ -15,11 +15,12 @@ setTimeout(() => {
               setTimeout(() => {
                 document.getElementById("count").innerHTML = "3";
                 setTimeout(() => {
-                  document.getElementsByClassName("count").innerHTML = "2";
+                  document.getElementById("count").innerHTML = "2";
                   setTimeout(() => {
                     document.getElementById("count").innerHTML = "1";
                     setTimeout(() => {
                       document.getElementById("count").innerHTML = "HAPPY INDEPENDANCE DAY";
+                      document.getElementById("img_container").style.visibility = "visible"
                     }, 1000)
                   }, 1000)
                 }, 1000)
