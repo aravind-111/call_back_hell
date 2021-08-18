@@ -1,0 +1,15 @@
+body {
+  background-color: gray;
+}
+
+#count {
+  font-size: 50px;
+  /* justify-content: center; */
+  text-align: center;
+  color: white;
+}
+.img_container {
+  justify-content: center;
+  text-align: center;
+  visibility: hidden;
+}
